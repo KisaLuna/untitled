@@ -9,6 +9,8 @@
 
 @endsection
 
+//add test comment
+
 @section('content')
     @foreach($products->chunk(3) as $productChunk)
         <div class="row">
